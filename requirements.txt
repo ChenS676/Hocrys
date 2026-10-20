@@ -1,0 +1,7 @@
+torch>=2.2
+numpy
+ase>=3.22
+matscipy
+mace-torch>=0.3.10   # brings e3nn
+pandas               # summarize.py only
+# wandb              # optional: --wandb

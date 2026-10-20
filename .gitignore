@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+data/*.pt
+data/matbench/
+logs/
+wandb/
+.venv/
+results/results.csv
