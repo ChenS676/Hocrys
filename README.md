@@ -68,6 +68,12 @@ Already the expected pattern: on SW all 2-body models stall at ~0.4 eV/A, and
 of the line-graph cost. Treat as a plumbing check only; run the grid with
 seeds and convergence before drawing conclusions.
 
+## Documentation
+
+- `docs/study_design.md`: research questions, phases, model grid, confounds, evaluation
+- `docs/literature_evidence.md`: what existing work shows and why it does not settle the question
+- `docs/eurohpc_application.md`: compute proposal text (JUPITER Booster / LUMI-G)
+
 ## Layout
 
 ```
@@ -78,6 +84,7 @@ hocrys/models.py      pair, ace, linegraph, mace wrapper
 train.py              single training/eval loop for everything
 tests/test_sanity.py  physics checks
 scripts/              get_matbench.sh, run_pilot.sh, slurm_array.sh, summarize.py
+docs/                 study design, literature evidence, compute proposal
 ```
 
 ## Next steps (not in the pilot)
